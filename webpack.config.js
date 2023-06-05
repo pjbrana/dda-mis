@@ -7,17 +7,17 @@ module.exports = {
   mode: 'development',
   entry: {
     application: path.resolve(__dirname, './src/js/application.js')
-  },  
+  },
   devServer: {
-      liveReload: true,
-      static: path.resolve(__dirname, './src'),
-      port: 3001,
-      proxy: {
-        "/": "http://localhost:8080",
-        "/landing": "http://localhost:8080",
-        "/login": "http://localhost:8080",
-        "/logout": "http://localhost:8080"
-      }
+    inline: true,
+    contentBase: './src',
+    port: 3001,
+    proxy: {
+      "/": "http://localhost:9292",
+      "/landing": "http://localhost:9292",
+      "/login": "http://localhost:9292",
+      "/logout": "http://localhost:9292"
+    }
   },
   module: {
       rules: [        
