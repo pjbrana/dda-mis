@@ -4,7 +4,6 @@
   "description": "",
   "main": "application.js",
   "scripts": {
-    "build:digitalocean": "npm install --legacy-peer-deps --production=false && npm run build && npm ci",
     "start": "webpack serve --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config ./webpack.config.js --mode development"

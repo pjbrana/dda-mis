@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843e8e8a-39aa-4ac6-85cb-ab2ee72c8a7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685637839178</updated>
       <workItem from="1685637840247" duration="2214000" />
-      <workItem from="1685685560761" duration="27000" />
+      <workItem from="1685685560761" duration="1860000" />
+      <workItem from="1685963888141" duration="676000" />
     </task>
     <servers />
   </component>

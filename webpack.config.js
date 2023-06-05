@@ -59,6 +59,7 @@ module.exports = {
   }, 
 
   output: {
+    path: '/var/app/dda-mis/static/',
     publicPath: '/js/',
     filename: '[name]Bundle.js',
   },
